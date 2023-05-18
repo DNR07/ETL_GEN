@@ -1,0 +1,3 @@
+OTP based login: https://javascript.plainenglish.io/create-otp-based-user-sign-up-using-node-js-cc4defc54123
+MUI Templates: https://mui.com/material-ui/getting-started/templates/
+Building a login screen with React and Bootstrap: https://supertokens.com/blog/building-a-login-screen-with-react-and-bootstrap

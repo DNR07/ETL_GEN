@@ -1,0 +1,98 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin: 1px;
+}
+.header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10%;
+}
+.add-command{
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.add-command-button{
+    border-radius: 10%;
+    width: 100px;
+    height: 50px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    cursor: pointer;
+    border: 2px solid #4CAF50;
+}
+.add-command-button:hover{
+    background-color: green;
+    color: white; 
+}
+.reset-page{
+    border-radius: 10%;
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    color: white;
+    font-weight: bolder;
+}
+.command-box{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    /*background-color: aqua; */
+    margin-bottom: 30px;
+    padding: 10px    
+}
+.command-form{
+    padding-top: 10px;
+}
+.command-textarea{
+    border: 2px solid darkmagenta;
+    border-radius: 2%;
+    width: 400px;
+    margin: 0 auto;
+    outline: none;
+    height: 110px;
+    background: #d1edfe;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 14px;
+}
+.command-textarea:focus::placeholder{
+    color: transparent;
+}
+.iframe{
+    display: none;
+}
+.command-submit-btn{
+    border-radius: 2%;
+    font-size: 13px;
+    width: 70px;
+    height: 23px;
+    background-color: white;
+    color: black;
+    transition-duration: 0.3s;
+    font-weight: 500;
+    cursor: pointer;
+    border: 1.5px solid darkmagenta;
+}
+.command-submit-btn:hover{
+    border-radius: 30%;
+    font-weight: bold;
+}
+.command-output{
+    height: 320px;
+    width: 600px;
+}
+.download-result{
+    width: 10px;
+    height: 5px ;
+}

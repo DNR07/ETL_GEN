@@ -1,0 +1,46 @@
+Client To-Do List:
+1. add shadow to reset button 
+2. make textarea submit button look better (i.e. when they press it, it should convert into a loading circle) 
+3. change textarea colour (not needed)
+4. darker background (not needed)
+5. add line between commands
+6. make output window smaller
+
+Server To-Do List:
+1. In controller for post api return data (in columns and rows)
+2. Take the rows and columns and directly convert 
+
+Impo Links:
+1. React Icons: https://github.com/react-icons/react-icons
+2. How to Send Data From React to Node JS Express?: https://www.nicesnippets.com/blog/how-to-send-data-from-react-to-node-js-express
+3. GitHub repo: https://github.com/DNR07/ETL_GEN
+4. Persisting data using Local storage: https://blog.bitsrc.io/5-methods-to-persisting-state-between-page-reloads-in-react-8fc9abd3fa2f
+
+Future Plans:
+1. Make result  
+2. Creating users
+3. Home page
+4. Create pipelines so users can make multiple pages with commands
+5. customize profile (https://github.com/react-icons/react-icons)
+
+Open Points:
+1. Server Security
+2. Client and server performance
+3. Use of multiple external libraries for both server and client
+
+Done:
+reduce size of texarea (done)
+create mongo db model (done)
+increase font of text within texarea (done)
+add textarea data to mongo db (done)
+
+Current Issues:
+1. No primary key for data being sent from the client (i.e. command input)
+
+Next steps till project resumes: 
+Frontend: 
+1. Create login page
+
+Backend: 
+1. Secure some routes which can be accessed only if user logged in 
+

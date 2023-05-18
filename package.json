@@ -1,0 +1,13 @@
+{
+  "name": "etl_generator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "npm run build --prefix client && npm start --prefix server",
+    "client": "npm start --prefix client"
+  },
+  "author": "",
+  "license": "ISC"
+}
